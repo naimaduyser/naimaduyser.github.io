@@ -1,13 +1,49 @@
+/* Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Reenie Beanie Font */
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+/* Staatliches Font */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+/* Lato Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+/* Variables */
+
+:root {
+  --hover-link: grey;
+  --current-link: rgb(255, 203, 73);
+  --hover-transition: all 0.2s ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6,p,a {
+  color: white;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }

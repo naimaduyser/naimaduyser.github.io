@@ -1,0 +1,53 @@
+.contact-container {
+    width: 95vw;
+    height: 100vh;
+    padding-top: 30vh;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+
+.email, .phone {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 80px;
+}
+
+.social-media-icons {
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-size: 4rem;
+}
+
+.linkedin, .github {
+    color: white;
+    font-size: 2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.linkedin:hover, .github:hover {
+    transform: scale(1.1);
+}
+
+.contact-image {
+    width: 600px;
+}
+
+@media screen and (max-width: 1240px) {
+    .contact-details {
+        display: block;
+        text-align: center;
+    }
+}

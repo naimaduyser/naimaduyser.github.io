@@ -1,0 +1,74 @@
+.documentaries {
+    filter: saturate(1.2);
+    background-image: url("../assets/media/banner/documentaries.jpg");
+}
+
+.music-videos {
+    filter: saturate(1.2);
+
+    background-image: url("../assets/media/banner/music-videos.png")
+}
+
+.short-films {
+    filter: saturate(1.2);
+    background-image: url("../assets/media/banner/short-films.jpg");
+}
+
+.webseries {
+    filter: saturate(1.2);
+    filter: contrast(1.2);
+    background-image: url("../assets/media/banner/webseries.png");
+}
+
+.malachi {
+    filter: saturate(1.2);
+
+    background-image: url("../assets/media/banner/malachi-cover.png")
+}
+
+.scribbles {
+    filter: saturate(1.2);
+
+    background-image: url("../assets/media/banner/scribbles.png")
+}
+
+.whydoesitfeelsoright {
+    filter: saturate(1.3);
+
+    background-image: url("../assets/media/banner/whydoesitfeelsoright.png")
+}
+
+.imoto {
+    filter: saturate(1.3);
+
+    background-image: url("../assets/media/banner/imoto.png")
+}
+
+.chiarascuro {
+    filter: contrast(1.2);
+
+    background-image: url("../assets/media/banner/chiarascuro.png")
+}
+
+.voyage-nocturne {
+    filter: saturate(1.2);
+    filter: contrast(1.2);
+
+    background-image: url("../assets/media/banner/voyage-nocturne.png")
+}
+
+.space-to-create {
+    filter: saturate(2.1);
+
+    background-image: url("../assets/media/banner/space-to-create.png");
+}
+
+.my-one-thing {
+    filter: saturate(1.7);
+
+    background-image: url("../assets/media/banner/my-one-thing.png");
+}
+
+.banner {
+    box-shadow: inset 0 0 30px black;
+}
