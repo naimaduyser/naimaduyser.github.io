@@ -31,7 +31,7 @@ const Films = () => {
           <h2>Short Films</h2>
         </div>
       </Link>
-      <Link to="/commercials">
+      <Link to="/webseries">
         <div className="webseries banner">
           <h2>Web Series</h2>
         </div>
