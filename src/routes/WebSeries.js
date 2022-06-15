@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 // Page Transition
 import { motion } from "framer-motion"
 
-const Commercials = () => {
+const WebSeries = () => {
 
     return (
       <motion.div className="container" initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
@@ -24,5 +24,5 @@ const Commercials = () => {
     );
   };
   
-  export default Commercials;
+  export default WebSeries;
   
