@@ -160,6 +160,7 @@ const MusicPlayer = () => {
         src={songs[currentSongIndex].src}
         id="audio"
         preload="metadata"
+        autoPlay
       ></audio>
 
       {/* Music Player Buttons */}
