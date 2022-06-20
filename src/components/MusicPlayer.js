@@ -45,7 +45,7 @@ const MusicPlayer = () => {
   ]);
 
   const [currentSongIndex, setCurrentSongIndex] = useState(0);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
   const [duration, setDuration] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
 
@@ -160,7 +160,6 @@ const MusicPlayer = () => {
         src={songs[currentSongIndex].src}
         id="audio"
         preload="metadata"
-        autoPlay
       ></audio>
 
       {/* Music Player Buttons */}
