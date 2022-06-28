@@ -30,7 +30,7 @@ const ASpaceToCreate = () => {
         <div className="project-media-2">
           <img
             src={ASpaceToCreateCover}
-            alt="A Space to Create"
+            alt="Philip Roeder in A Space to Create"
             className="project-image"
           />
         </div>
@@ -47,7 +47,7 @@ const ASpaceToCreate = () => {
         <div className="project-media-2">
           <img
             src={ASpaceToCreateCover2}
-            alt="A Space to Create"
+            alt="Rowan Edwards and Friends"
             className="project-image"
           />
         </div>
@@ -65,7 +65,7 @@ const ASpaceToCreate = () => {
         <div className="project-media-2">
           <img
             src={ASpaceToCreateCover3}
-            alt="A Space to Create"
+            alt="Pietro Spinelli in A Space to Create"
             className="project-image"
           />
         </div>

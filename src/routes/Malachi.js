@@ -36,7 +36,7 @@ const Malachi = () => {
         <div className="project-media-2">
           <img
             src={MalachiCover}
-            alt="Malachi Basden on da sax"
+            alt="Malachi Basden in JustMusic"
             className="project-image"
           />
         </div>
@@ -61,7 +61,7 @@ const Malachi = () => {
         <div className="project-media-2">
           <img
             src={MalachiCover2}
-            alt="Malachi Basden on da sax"
+            alt="Gabeyre Farah on the trumpet"
             className="project-image"
           />
         </div>
@@ -81,7 +81,7 @@ const Malachi = () => {
         <div className="project-media-2">
           <img
             src={MalachiCover3}
-            alt="Malachi Basden on da sax"
+            alt="Malachi Basden in Rosenthaler Platz"
             className="project-image"
           />
         </div>

@@ -32,7 +32,7 @@ const Scribbles = () => {
         <div className="project-media-2">
           <img
             src={ScribblesPhoto}
-            alt="David Scribbles"
+            alt="David Scribbles and Friends"
             className="project-image"
           />
         </div>
@@ -56,7 +56,7 @@ const Scribbles = () => {
         <div className="project-media-2">
           <img
             src={ScribblesPhoto2}
-            alt="David Scribbles"
+            alt="The Band with David Scribbles"
             className="project-image"
           />
         </div>

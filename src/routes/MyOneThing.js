@@ -32,7 +32,7 @@ const MyOneThing = () => {
         <div className="project-media-2">
           <img
             src={MyOneThingCover}
-            alt="My One Thing: Web-Series"
+            alt="Cadenza Zhao in My One Thing"
             className="project-image"
           />
         </div>

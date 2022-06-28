@@ -32,7 +32,7 @@ const Imoto = () => {
           <h5>Director, Producer, Editor, Sound Design</h5>
         </div>
         <div className="project-media-2">
-          <img src={ImotoCover} alt="Imoto" className="project-image" />
+          <img src={ImotoCover} alt="Mai and Riku at Warschauer Strasse Bridge" className="project-image" />
         </div>
         <div className="project-paragraph">
           <p>
@@ -53,7 +53,7 @@ const Imoto = () => {
           </p>
         </div>
         <div className="project-media-2">
-          <img src={ImotoCover2} alt="Imoto" className="project-image" />
+          <img src={ImotoCover2} alt="Eddie and Riku in a diner" className="project-image" />
         </div>
         <div className="project-paragraph">
           <p>
@@ -72,7 +72,7 @@ const Imoto = () => {
           </p>
         </div>
         <div className="project-media-2">
-          <img src={ImotoCover3} alt="Imoto" className="project-image" />
+          <img src={ImotoCover3} alt="Riku in Ostbahnhof" className="project-image" />
         </div>
         <div className="project-paragraph">
           <p>
