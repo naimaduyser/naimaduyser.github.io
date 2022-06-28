@@ -18,9 +18,9 @@ const MusicPlayer = () => {
   // State
   const [songs] = useState([
     {
-      title: "Terry Burrus - Share My Dreams",
-      src: Soul,
-      genre: "Soul",
+      title: "Ben Tankard - All Keyed Up",
+      src: Jazz,
+      genre: "Jazz",
     },
     {
       title: "General Smiley - It's A Good Day",
@@ -33,9 +33,9 @@ const MusicPlayer = () => {
       genre: "Lounge",
     },
     {
-      title: "Ben Tankard - All Keyed Up",
-      src: Jazz,
-      genre: "Jazz",
+      title: "Terry Burrus - Share My Dreams",
+      src: Soul,
+      genre: "Soul",
     },
     {
       title: "Harry Roesli Gang - Curah Hujan",
@@ -156,6 +156,7 @@ const MusicPlayer = () => {
     <div className="music-container">
       {/* Audio Source */}
       <audio
+        autoPlay="autoPlay"
         ref={audioPlayer}
         src={songs[currentSongIndex].src}
         id="audio"
@@ -219,7 +220,7 @@ const MusicPlayer = () => {
           }
           onClick={(e) => handleGenreSelection(e)}
         >
-          Soul
+          Jazz
         </button>
         <button
           className={
@@ -250,7 +251,7 @@ const MusicPlayer = () => {
           }
           onClick={(e) => handleGenreSelection(e)}
         >
-          Jazz
+          Soul
         </button>
         <button
           className={
