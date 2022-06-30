@@ -183,7 +183,7 @@ const MusicPlayer = () => {
           <BsFillSkipForwardFill style={{ color: "white" }} />
         </button>
       </div>
-
+      
       {/* Song Title */}
       <div className="song-title" id="title">
         {songs[currentSongIndex].title}
@@ -232,7 +232,8 @@ const MusicPlayer = () => {
         >
           Reggae
         </button>
-
+          <button>
+          </button>
         <button
           className={
             currentSongIndex === 2
