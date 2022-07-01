@@ -52,7 +52,7 @@ const MyOneThing = () => {
           </p>
           <p>
             This web-series was made for and in collaboration with Catalyst:
-            Institute of the Arts in Berlin.
+            Institute of the Arts in Berlin.            
           </p>
         </div>
         <p>Click the links below to watch episodes of the web series:</p>
