@@ -1,6 +1,6 @@
 import React from "react";
 
-// Styling 
+// Styling
 import "../components/project.css";
 
 // Media
@@ -12,6 +12,9 @@ import ImotoCover3 from "../assets/media/project/imoto-project-3.png";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
+// Icons
+import { BsArrowLeft } from 'react-icons/bs'
+
 const Imoto = () => {
   const navigate = useNavigate();
 
@@ -22,7 +25,7 @@ const Imoto = () => {
       exit={{ opacity: 0 }}
     >
       <button className="back-button" onClick={() => navigate(-1)}>
-        Back
+        <BsArrowLeft className="bs-left" />
       </button>
 
       <div className="project-container-2">
@@ -32,7 +35,11 @@ const Imoto = () => {
           <h5>Director, Producer, Editor, Sound Design</h5>
         </div>
         <div className="project-media-2">
-          <img src={ImotoCover} alt="Mai and Riku at Warschauer Strasse Bridge" className="project-image" />
+          <img
+            src={ImotoCover}
+            alt="Mai and Riku at Warschauer Strasse Bridge"
+            className="project-image"
+          />
         </div>
         <div className="project-paragraph">
           <p>
@@ -53,7 +60,11 @@ const Imoto = () => {
           </p>
         </div>
         <div className="project-media-2">
-          <img src={ImotoCover2} alt="Eddie and Riku in a diner" className="project-image" />
+          <img
+            src={ImotoCover2}
+            alt="Eddie and Riku in a diner"
+            className="project-image"
+          />
         </div>
         <div className="project-paragraph">
           <p>
@@ -72,7 +83,11 @@ const Imoto = () => {
           </p>
         </div>
         <div className="project-media-2">
-          <img src={ImotoCover3} alt="Riku in Ostbahnhof" className="project-image" />
+          <img
+            src={ImotoCover3}
+            alt="Riku in Ostbahnhof"
+            className="project-image"
+          />
         </div>
         <div className="project-paragraph">
           <p>

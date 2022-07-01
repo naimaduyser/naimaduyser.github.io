@@ -232,8 +232,6 @@ const MusicPlayer = () => {
         >
           Reggae
         </button>
-          <button>
-          </button>
         <button
           className={
             currentSongIndex === 2
@@ -248,7 +246,7 @@ const MusicPlayer = () => {
           className={
             currentSongIndex === 3
               ? "genre-button active-genre"
-              : "genre-button"
+              : "genre-button"  
           }
           onClick={(e) => handleGenreSelection(e)}
         >

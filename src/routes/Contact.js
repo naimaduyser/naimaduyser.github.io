@@ -26,11 +26,11 @@ const Contact = () => {
         <p>Reach me via:</p>
       <div className="contact-details">
         <div className="email">
-          <p>EMAIL</p>
+          <p>Email:</p>
           <p>naima.fatimaduyser@gmail.com</p>
         </div>
         <div className="phone">
-          <p>Phone</p>
+          <p>Mobile:</p>
           <p>+393509377413</p>
         </div>
       <div className="social-media-icons">

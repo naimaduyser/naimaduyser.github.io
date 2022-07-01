@@ -22,13 +22,14 @@
     scroll-snap-align: start;
     cursor: pointer;
     opacity: 0.9;
+    z-index: 1;
 }
 
 .banner h2 {
     padding-top: 5vh;
-    font-size: 4vw;
+    font-size: 3.5vw;
     text-align: center;
-    letter-spacing: 20px;
+    letter-spacing: 10px;
     font-weight: 300;
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
@@ -44,12 +45,24 @@
 @media screen and (max-width: 1240px) {
     .banner h2 {
         letter-spacing: 5px;
-        font-size: 2.5rem;
-        width: 80%;
+        font-size: 1.5rem;
+        width: 60%;
         margin: 0 auto;
-        font-weight: 300;
+        font-weight: 500;
+    }
+
+    .banner h3 {
+        letter-spacing: 2px;
     }
     .banner {
         background-position: center;
+    }
+
+    .back-films {
+        padding-left: 6vw !important;
+    }
+
+    .back-button {
+        padding-left: 8vw !important;
     }
 }

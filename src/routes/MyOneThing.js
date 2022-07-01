@@ -10,6 +10,9 @@ import MyOneThingCover from "../assets/media/project/my-one-thing-project.png";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
+// Icons
+import { BsArrowLeft } from 'react-icons/bs'
+
 const MyOneThing = () => {
   const navigate = useNavigate();
 
@@ -20,7 +23,7 @@ const MyOneThing = () => {
       exit={{ opacity: 0 }}
     >
       <button className="back-button" onClick={() => navigate(-1)}>
-        Back
+        <BsArrowLeft className="bs-left"/>
       </button>
 
       <div className="project-container-2">

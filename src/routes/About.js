@@ -15,7 +15,6 @@ const About = () => {
       exit={{ opacity: 0 }}
     >
       <div className="about-container">
-        <img src={ProfilePicture} alt="Naima Profile" className="profile-pic" />
         <div className="about-text">
           <p>
             Hey! I'm Naima. I'm a front-end web developer and part-time
@@ -34,13 +33,13 @@ const About = () => {
             I am also a recent graduate of Le Wagon's 9 week intensive web
             development bootcamp, where I learned the foundations of web
             development, including HTML, CSS & JavaScript, Bootstrap, jQuery,
-            SQL, Git & Version Control, Heroku, Ruby on Rails, AJAX, React and
+            SQL, Git & Version Control, Heroku, Ruby on Rails, AJAX and
             UX/UI Design. At the moment I am doing an internship as a front-end
-            web developer at AKQA Amsterdam.
+            web developer at AKQA Amsterdam. During this time I am teaching myself how to use different JavaScript frameworks such as Vue.js and React.
           </p>
           <p>
             Feel free to reach out to me about any projects you may need help
-            on. You can see examples of my work by clicking on the links above.
+            with. You can see examples of my work by clicking on the links above.
             Happy Browsing!
           </p>
         </div>

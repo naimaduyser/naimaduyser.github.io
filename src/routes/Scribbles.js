@@ -11,6 +11,9 @@ import ScribblesPhoto2 from "../assets/media/project/scribbles-project-2.png";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
+// Icons
+import { BsArrowLeft } from "react-icons/bs";
+
 const Scribbles = () => {
   const navigate = useNavigate();
   return (
@@ -20,7 +23,7 @@ const Scribbles = () => {
       exit={{ opacity: 0 }}
     >
       <button className="back-button" onClick={() => navigate(-1)}>
-        Back
+        <BsArrowLeft className="bs-left" />
       </button>
 
       <div className="project-container-2">

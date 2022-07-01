@@ -1,7 +1,7 @@
 import React from "react";
 
 // Styling
-import "../components/project.css"
+import "../components/project.css";
 
 // Media
 import ButterflyVideo from "../assets/media/videos/wings_loop.mp4";
@@ -9,6 +9,9 @@ import ButterflyVideo from "../assets/media/videos/wings_loop.mp4";
 // Page Transition & Navigation
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+
+// Icons
+import { BsArrowLeft } from 'react-icons/bs'
 
 const Butterfly = () => {
   const navigate = useNavigate();
@@ -20,7 +23,7 @@ const Butterfly = () => {
       exit={{ opacity: 0 }}
     >
       <button className="back-button" onClick={() => navigate(-1)}>
-        Back
+        <BsArrowLeft className="bs-left" />
       </button>
       <div className="project-container-2">
         <div className="project-details">
@@ -39,8 +42,10 @@ const Butterfly = () => {
         </div>
         <div className="project-paragraph">
           <p>
-            The Butterfly Wing is the world's first gallery dedicated to
-            showcasing art, writing and media made by people living with lupus.
+            The Butterfly Wing is the world's first online interactive gallery
+            dedicated to showcasing art, writing and media made by people living
+            with lupus. I was asked to build several pages of the website
+            following a style guide given by a design team.
           </p>
         </div>
         <div className="project-paragraph">
@@ -49,7 +54,7 @@ const Butterfly = () => {
             expression and healing. There's a huge number of writers, artists,
             poets, ceramicists, and illustrators within the lupus community, for
             whom art is a form of therapy and a way of connecting with the wider
-            world. This was our main form of inspiration for building The
+            world. This was the main form of inspiration for building The
             Butterfly Wing Gallery.
           </p>
         </div>

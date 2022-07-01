@@ -9,6 +9,9 @@ import ASpaceToCreateCover3 from "../assets/media/project/space-to-create-projec
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
+// Icons
+import { BsArrowLeft } from "react-icons/bs"
+
 const ASpaceToCreate = () => {
   const navigate = useNavigate();
 
@@ -19,7 +22,7 @@ const ASpaceToCreate = () => {
       exit={{ opacity: 0 }}
     >
       <button className="back-button" onClick={() => navigate(-1)}>
-        Back
+        <BsArrowLeft className="bs-left" />
       </button>
       <div className="project-container-2">
         <div className="project-details">
@@ -36,12 +39,12 @@ const ASpaceToCreate = () => {
         </div>
         <div className="project-paragraph">
           <p>
-            A Space To Create is a multiple part web series exploring the
-            creative journeys and processes of several students and teachers
-            associated with Catalyst: Institute of the Arts (formerly DBS
-            Berlin). I was hired as a cinematographer and editor by the
-            university to create this series in conjunction with an executive
-            producer and a director.
+            A Space To Create is a multi-part web series exploring the creative
+            journeys and processes of several students and teachers associated
+            with Catalyst: Institute of the Arts (formerly DBS Berlin). I was
+            hired as a cinematographer and editor by the university to create
+            this series in conjunction with an executive producer and a
+            director.
           </p>
         </div>
         <div className="project-media-2">
@@ -69,11 +72,30 @@ const ASpaceToCreate = () => {
             className="project-image"
           />
         </div>
-          <p>Click the links below to watch episodes of the web series:</p>
-          <div className="webseries-links">
-          <a href="https://www.youtube.com/watch?v=ECzuzTtH8Is&feature=emb_title" target="_blank" rel="noreferrer" className="project-link"><p><strong>Rowan Edwards:</strong> Electronic Music Production & Performance Student</p></a>
-          <a href="https://vimeo.com/266512864" target="_blank" rel="noreferrer" className="project-link"><p><strong>Philip Roeder</strong>: Electronic Music Producer & Tutor</p></a>
-          </div>
+        <p>Click the links below to watch episodes of the web series:</p>
+        <div className="webseries-links">
+          <a
+            href="https://www.youtube.com/watch?v=ECzuzTtH8Is&feature=emb_title"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            <p>
+              <strong>Rowan Edwards:</strong> Electronic Music Production &
+              Performance Student
+            </p>
+          </a>
+          <a
+            href="https://vimeo.com/266512864"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            <p>
+              <strong>Philip Roeder</strong>: Electronic Music Producer & Tutor
+            </p>
+          </a>
+        </div>
       </div>
     </motion.div>
   );

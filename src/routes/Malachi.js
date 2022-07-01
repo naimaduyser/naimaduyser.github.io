@@ -6,11 +6,14 @@ import "../components/project.css";
 // Media
 import MalachiCover from "../assets/media/project/malachi-project.png";
 import MalachiCover2 from "../assets/media/project/malachi-project-2.png";
-import MalachiCover3 from "../assets/media/project/malachi-project-3.png"
+import MalachiCover3 from "../assets/media/project/malachi-project-3.png";
 
 // Navigation & Page Transition
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+
+// Icons
+import { BsArrowLeft } from "react-icons/bs";
 
 const Malachi = () => {
   const navigate = useNavigate();
@@ -22,15 +25,14 @@ const Malachi = () => {
       exit={{ opacity: 0 }}
     >
       <button className="back-button" onClick={() => navigate(-1)}>
-        Back
+        <BsArrowLeft className="bs-left" />
       </button>
 
       <div className="project-container-2">
         <div className="project-details">
           <h4>MALACHI</h4>
           <h4>(mal-uh-kai)</h4>
-          <h5>Documentary | Berlin, Germany | 2018
-          </h5>
+          <h5>Documentary | Berlin, Germany | 2018</h5>
           <h5>Director, DOP, Editor, Producer</h5>
         </div>
         <div className="project-media-2">

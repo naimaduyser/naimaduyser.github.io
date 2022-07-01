@@ -1,22 +1,29 @@
 import React from "react";
 
 // Styling
-import "../components/project.css"
+import "../components/project.css";
 
 // Media
-import ChiarascuroCover from "../assets/media/project/chiarascuro-project.png"
+import ChiarascuroCover from "../assets/media/project/chiarascuro-project.png";
 
 // Page Transition & Navigation
 import { useNavigate } from "react-router-dom";
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
+
+// Icons
+import { BsArrowLeft } from "react-icons/bs";
 
 const Chiarascuro = () => {
   const navigate = useNavigate();
 
   return (
-    <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
-            <button className="back-button" onClick={() => navigate(-1)}>
-        Back
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
+      <button className="back-button" onClick={() => navigate(-1)}>
+        <BsArrowLeft className="bs-left" />
       </button>
 
       <div className="project-container-2">
@@ -26,10 +33,18 @@ const Chiarascuro = () => {
           <h5>Director, DOP, Editor</h5>
         </div>
         <div className="project-media-2">
-         <img src={ChiarascuroCover} alt="Chiarascuro" className="project-image" />
+          <img
+            src={ChiarascuroCover}
+            alt="Ilias Merabiha in Chiarascuro"
+            className="project-image"
+          />
         </div>
         <div className="project-paragraph">
-          <p>This minute-long microfilm explores a young man struggling to come to terms with his true identity. He is met by two women who laugh at him for expressing his feminine side.</p>
+          <p>
+            This minute-long microfilm follows a young man struggling to come to
+            terms with his true identity. He is met by two women who laugh at
+            him for expressing his feminine side.
+          </p>
         </div>
         <a
           href="https://vimeo.com/192643848"
