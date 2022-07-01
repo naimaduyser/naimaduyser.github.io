@@ -39,8 +39,7 @@ const About = () => {
           </p>
           <p>
             Feel free to reach out to me about any projects you may need help
-            with. You can see examples of my work by clicking on the links above.
-            Happy Browsing!
+            with. You can see examples of my work by clicking on the links above. Happy Browsing!
           </p>
         </div>
       </div>
