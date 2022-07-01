@@ -45,7 +45,7 @@ const MusicPlayer = () => {
   ]);
 
   const [currentSongIndex, setCurrentSongIndex] = useState(0);
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
   const [duration, setDuration] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
 
@@ -156,7 +156,7 @@ const MusicPlayer = () => {
     <div className="music-container">
       {/* Audio Source */}
       <audio
-        autoPlay="autoPlay"
+        // autoPlay="autoPlay"
         ref={audioPlayer}
         src={songs[currentSongIndex].src}
         id="audio"
