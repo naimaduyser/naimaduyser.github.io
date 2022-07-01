@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
 // Icons
-import { BsArrowLeft } from 'react-icons/bs'
+import { BsArrowLeft } from "react-icons/bs";
 
 const Imoto = () => {
   const navigate = useNavigate();
@@ -43,20 +43,19 @@ const Imoto = () => {
         </div>
         <div className="project-paragraph">
           <p>
-            Imoto was filmed during the winter of 2018-2019 as part of my final
-            thesis project. This was the first project in which I had complete
-            creative freedom, with zero limitations on what I had to film. The
-            project took two months to complete and was definitely the most
-            demanding project I’ve taken part in. It was my first time directing
-            a short film that was longer than a few minutes as I was used to
-            shooting documentaries before. When shooting a documentary, you have
-            the opportunity and ability to be somewhat spontaneous and not
-            really go into the day knowing what shots you would manage to
-            capture. Thereby you are also able to work with a smaller crew. With
-            this film, it was important that everything was meticulously
-            planned, including the script, shot list, lighting, sound, framing,
-            directing actors, negotiating locations and rehearsals. I also was
-            lucky enough to have a larger crew for this project.
+            Imoto was my final thesis project in film school and was filmed
+            during the winter of 2018-2019. It was the first film project in
+            which I had complete creative freedom, with zero limitations on the
+            genre, length and style. The project took two months to complete and
+            was definitely the most demanding project I’ve taken part in. Prior
+            to this project, I was used to shooting documentaries. When shooting
+            a documentary, you have the opportunity to be spontaneous and not
+            really know what shots you'd capture during the day. For me this is
+            one of the most exciting things about documentary filmmaking. IMOTO
+            took me completely out of my comfort zone as everything had to be
+            meticulously planned, including the script, shot list, lighting,
+            sound, framing, directing actors, negotiating locations and
+            rehearsals.
           </p>
         </div>
         <div className="project-media-2">
@@ -77,9 +76,9 @@ const Imoto = () => {
             follow a day in the life of several characters and this was
             something I wanted to replicate in my script. The cinematography of
             Christopher Doyle paired with the backdrop of a neon-lit, bustling
-            East Asian city, there was something completely magnetic about his
+            East Asian city, was something completely magnetic about his
             movies. I wanted to pay homage to these two great directors and
-            decided to use the creative aspects of both in my thesis film.
+            decided to use inspiration from both in my thesis film.
           </p>
         </div>
         <div className="project-media-2">
@@ -91,10 +90,10 @@ const Imoto = () => {
         </div>
         <div className="project-paragraph">
           <p>
-            The story follows Riku and Mai, two siblings from Japan, learn that
+            The story follows Riku and Mai, two siblings from Japan, as they learn that
             their older brother has been killed back in their hometown. An old
-            family friend travels to a bustling Berlin to warn them about the
-            imminent danger coming their way.
+            family friend travels to Berlin to warn them about the
+            imminent danger coming their way. 
           </p>
         </div>
         <a
