@@ -4,9 +4,6 @@ import { motion } from "framer-motion";
 // Styling
 import "../pages/about.css";
 
-// Assets
-import ProfilePicture from "../assets/media/other/naima.png";
-
 const About = () => {
   return (
     <motion.div
@@ -16,10 +13,6 @@ const About = () => {
     >
       <div className="about-container">
         <div className="about-text">
-          <p>
-            Hey! I'm Naima. I'm a front-end web developer and part-time
-            filmmaker currently based in the Netherlands.
-          </p>
           <p>
             In 2018 I graduated from DBS Film School (now known as Catalyst:
             Institute of the Arts) in Berlin. Having been to film school

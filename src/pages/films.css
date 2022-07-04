@@ -10,13 +10,12 @@
 }
 
 .short-films {
-    filter: saturate(1.2);
     background-image: url("../assets/media/banner/short-films.jpg");
 }
 
 .webseries {
     filter: saturate(1.2);
-    filter: contrast(1.2);
+    filter: contrast(1.3);
     background-image: url("../assets/media/banner/webseries.png");
 }
 
@@ -58,15 +57,18 @@
 }
 
 .space-to-create {
-    filter: saturate(2.1);
+    filter: saturate(1.6);
 
     background-image: url("../assets/media/banner/space-to-create.png");
 }
 
 .my-one-thing {
-    filter: saturate(1.7);
-
+    filter: saturate(1.3);
     background-image: url("../assets/media/banner/my-one-thing.png");
+}
+
+.pietro {
+    filter: brightness(0.9) contrast(1.1);
 }
 
 .banner {

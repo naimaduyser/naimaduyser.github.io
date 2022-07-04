@@ -69,7 +69,7 @@ const ASpaceToCreate = () => {
           <img
             src={ASpaceToCreateCover3}
             alt="Pietro Spinelli in A Space to Create"
-            className="project-image"
+            className="project-image pietro"
           />
         </div>
         <p>Click the links below to watch episodes of the web series:</p>
