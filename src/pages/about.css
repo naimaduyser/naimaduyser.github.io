@@ -29,21 +29,17 @@
 
 @media screen and (max-width: 1240px) {
     .about-container {
-        padding-top: 200px;
+        padding-top: 120px;
         display: block;
         text-align: center;
         margin: 0 auto;
     }
 
-    .profile-pic {
-        width: 30vw;
-    }
-
     .about-text {
         margin: 0 auto;
-        padding-top: 50px;
-        width: 60vw;
+        width: 80vw;
         padding-bottom: 10vh;
+        line-height: 30px;
     }
 
 }

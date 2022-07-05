@@ -3,7 +3,7 @@
   padding-top: 200px;
   display: block;
   margin: 0 auto;
-  width: 40%;
+  width: 50%;
   text-align: justify;
   padding-bottom: 150px;
 }
@@ -45,7 +45,7 @@
 }
 
 .project-image {
-  width: 40vw;
+  width: 50vw;
   transition: all 0.2s ease-in-out;
   position: relative;
 }
@@ -121,6 +121,7 @@
 @media screen and (max-width: 900px) {
   .project-container-2 {
     width: 80%;
+    padding-top: 150px;
   }
 
   .project-media-2 img {
@@ -129,5 +130,9 @@
 
   .butterfly-video {
     width: 50%;
+  }
+
+  .bs-left {
+    display: none;
   }
 }
