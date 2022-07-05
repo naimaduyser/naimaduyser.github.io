@@ -34,7 +34,7 @@ const WhyDoesItFeelSoRight = () => {
         <div className="project-media-2">
           <img src={SofiePhoto} alt="Sofie Soe" className="project-image" />
         </div>
-        <div className="project-image">
+        <div className="project-paragraph">
           <p>
             Why Does It Feel So Right is a music video filmed for Berlin-based
             Danish singer Sofie Soe. This music video was made in my first year
