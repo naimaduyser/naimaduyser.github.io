@@ -25,7 +25,7 @@ const About = () => {
             development bootcamp, where I learned the foundations of web
             development, including HTML, CSS & JavaScript, Bootstrap, jQuery,
             SQL, Git & Version Control, Heroku, Ruby on Rails, AJAX and UX/UI
-            Design. Since March 2022, I started an internship in web
+            Design. In March 2022, I started an internship in web
             development at AKQA Amsterdam. During my time here, I familiarised
             myself with different JavaScript frameworks, such as React and
             Vue.js.
