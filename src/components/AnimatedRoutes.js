@@ -47,7 +47,7 @@ const AnimatedRoutes = () => {
                 <Route path="/chiarascuro" element={<Chiarascuro /> } />
                 <Route path="/voyage-nocturne" element={<VoyageNocturne /> } />
                 <Route path="/my-one-thing" element={<MyOneThing /> } />
-                {/* <Route path="/a-space-to-create" element={<ASpaceToCreate /> } /> */}
+                <Route path="/a-space-to-create" element={<ASpaceToCreate /> } />
             </Switch>
         </AnimatePresence>
     </div>
