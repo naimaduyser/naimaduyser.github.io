@@ -1,5 +1,5 @@
 import React from 'react'
-import {  Switch, Route, useLocation } from 'react-router-dom'
+import {  Routes, Route, useLocation } from 'react-router-dom'
 
 // Routes
 import Home from "../routes/Home"
@@ -29,7 +29,7 @@ const AnimatedRoutes = () => {
   return (
     <div>
         <AnimatePresence>
-            <Switch location={location} key={location.pathname}>
+            <Routes location={location} key={location.pathname}>
                 <Route path="/" element={<Home /> } />
                 <Route path="/about" element={<About /> } />
                 <Route path="/films" element={<Films /> } />
@@ -48,7 +48,7 @@ const AnimatedRoutes = () => {
                 <Route path="/voyage-nocturne" element={<VoyageNocturne /> } />
                 <Route path="/my-one-thing" element={<MyOneThing /> } />
                 <Route path="/a-space-to-create" element={<ASpaceToCreate /> } />
-            </Switch>
+            </Routes>
         </AnimatePresence>
     </div>
   )
