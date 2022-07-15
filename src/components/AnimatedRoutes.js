@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, useLocation } from 'react-router-dom'
+import { browserHistory, Routes, Route, useLocation } from 'react-router-dom'
 
 // Routes
 import Home from "../routes/Home"
@@ -29,7 +29,7 @@ const AnimatedRoutes = () => {
   return (
     <div>
         <AnimatePresence>
-            <Routes location={location} key={location.pathname}>
+            <Routes location={location} key={location.pathname} history={browserHistory}>
                 <Route path="/" element={<Home /> } />
                 <Route path="/about" element={<About /> } />
                 <Route path="/films" element={<Films /> } />
