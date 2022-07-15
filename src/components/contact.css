@@ -1,6 +1,6 @@
 .contact-container {
     width: 95vw;
-    height: 100vh;
+    height: 120vh;
     padding-top: 30vh;
     margin: 0 auto;
     text-align: center;
@@ -21,13 +21,14 @@
 }
 
 .social-media-icons {
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 25px;
     font-size: 4rem;
+    padding-bottom: 20vh;
 }
 
 .linkedin, .github {
