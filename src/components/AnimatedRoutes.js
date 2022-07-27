@@ -24,7 +24,7 @@ import ASpaceToCreate from "../routes/ASpaceToCreate"
 // Framer Motion
 import { AnimatePresence } from 'framer-motion'
 
-const AnimatedRoutes = () => {
+const AnimatedRoutes = () => { 
     const location = useLocation();
   return (
     <div>
