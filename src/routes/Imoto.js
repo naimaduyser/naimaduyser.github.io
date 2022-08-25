@@ -43,16 +43,12 @@ const Imoto = () => {
         </div>
         <div className="project-paragraph">
           <p>
-            Imoto was my final thesis project in film school and was filmed
+            Imoto was my final thesis project in university and was filmed
             during the winter of 2018-2019. It was the first film project in
             which I had complete creative freedom, with zero limitations on the
             genre, length and style. The project took two months to complete and
-            was definitely the most demanding project I’ve taken part in. Prior
-            to this project, I was used to shooting documentaries. When shooting
-            a documentary, you have the opportunity to be spontaneous and not
-            really know what shots you'd capture during the day. For me this is
-            one of the most exciting things about documentary filmmaking. IMOTO
-            took me completely out of my comfort zone as everything had to be
+            was definitely the most demanding project of mine to date. Prior to this project, I had spent a lot of time shooting documentaries, which allowed me a lot of room for spontaneous shooting. IMOTO
+            took me completely out of my comfort zone as every aspect of the film had to be
             meticulously planned, including the script, shot list, lighting,
             sound, framing, directing actors, negotiating locations and
             rehearsals.
@@ -67,17 +63,16 @@ const Imoto = () => {
         </div>
         <div className="project-paragraph">
           <p>
-            During this time I was heavily inspired by the works of Takeshi
+            During the time of shooting I was heavily inspired by the works of Takeshi
             Kitano and Wong-Kar Wai. I loved the films of Takeshi Kitano because
-            of the way he wrote his characters. They could range from a hardened
+            of the way his characters were written and developed. They could range from a hardened
             yakuza thug to a quirky, innocent kid but they all shared humorous,
             relatable and wholesome qualities that made you very attached to
-            them. With the Wong-Kar Wai films, I loved how the plot tended to
+            them. With the Wong-Kar Wai films, I really enjoyed how the plot always seemed to
             follow a day in the life of several characters and this was
-            something I wanted to replicate in my script. The cinematography of
+            something I wanted to replicate in my script. Combined with the cinematography of
             Christopher Doyle paired with the backdrop of a neon-lit, bustling
-            East Asian city, was something completely magnetic about his
-            movies. I wanted to pay homage to these two great directors and
+            East Asian city, I was completely hypnotised when watching his movies. I wanted to pay homage to these two great directors and
             decided to use inspiration from both in my thesis film.
           </p>
         </div>
@@ -91,7 +86,7 @@ const Imoto = () => {
         <div className="project-paragraph">
           <p>
             The story follows Riku and Mai, two siblings from Japan, as they learn that
-            their older brother has been killed back in their hometown. An old
+            their older brother has been brutally murdered back in their hometown. An old
             family friend travels to Berlin to warn them about the
             imminent danger coming their way. 
           </p>

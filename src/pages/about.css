@@ -27,6 +27,11 @@
     padding-bottom: 5vh;
 }
 
+.about-link:hover {
+    color: var(--current-link);
+    transition: all 0.1s ease-in-out;
+}
+
 @media screen and (max-width: 1240px) {
     .about-container {
         padding-top: 120px;

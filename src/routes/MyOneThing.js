@@ -42,23 +42,15 @@ const MyOneThing = () => {
         <div className="project-paragraph">
           <p>
             My One Thing is a web series of short stories about the single tool
-            that is essential to the creative process of the artist.
-          </p>
-          <p>
-            This episode features filmmaker and talented musician Cadenza Zhao.
-            The young filmmaker is originally from Switzerland and grew up in a
-            very musical family but her passion for visual storytelling brought
-            her to Berlin.
-          </p>
-          <p>
-            This web-series was made for and in collaboration with Catalyst:
+            that is essential to the creative process of an artist. This web-series was made for and in collaboration with Catalyst:
             Institute of the Arts in Berlin.            
+
           </p>
         </div>
         <p>Click the links below to watch episodes of the web series:</p>
         <div className="webseries-links">
           <a
-            href="https://www.youtube.com/watch?v=ECzuzTtH8Is&feature=emb_title"
+            href="https://www.youtube.com/watch?v=3zFwowEazCA"
             target="_blank"
             rel="noreferrer"
             className="project-link"

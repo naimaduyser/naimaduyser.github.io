@@ -41,18 +41,10 @@ const VoyageNocturne = () => {
         <div className="project-paragraph">
           <p>
             Voyage Nocturne, directed by female Moroccan filmmaker Ines Asmami,
-            is a film about a young man dealing with his duality between his
+            is a film about a young man dealing with the duality between his
             cultural religious values and his passion for the drag queen show.
           </p>
         </div>
-        <a
-          href="https://vimeo.com/356364682"
-          target="_blank"
-          rel="noreferrer"
-          className="project-link"
-        >
-          <p>Watch the film</p>
-        </a>
       </div>
     </motion.div>
   );
