@@ -1,9 +1,7 @@
 import React from "react";
 
 // Media
-import ASpaceToCreateCover from "../assets/media/project/space-to-create-project.png";
 import ASpaceToCreateCover2 from "../assets/media/project/space-to-create-project-2.png";
-import ASpaceToCreateCover3 from "../assets/media/project/space-to-create-project-3.png";
 
 // Page Transition & Navigation
 import { motion } from "framer-motion";
@@ -32,23 +30,6 @@ const ASpaceToCreate = () => {
         </div>
         <div className="project-media-2">
           <img
-            src={ASpaceToCreateCover}
-            alt="Philip Roeder in A Space to Create"
-            className="project-image"
-          />
-        </div>
-        <div className="project-paragraph">
-          <p>
-            A Space To Create is a multi-part web series exploring the creative
-            journeys and processes of several students and teachers associated
-            with Catalyst: Institute of the Arts (formerly DBS Berlin). I was
-            hired as a cinematographer and editor by the university to create
-            this series in conjunction with an executive producer and a
-            director.
-          </p>
-        </div>
-        <div className="project-media-2">
-          <img
             src={ASpaceToCreateCover2}
             alt="Rowan Edwards and Friends"
             className="project-image"
@@ -56,21 +37,10 @@ const ASpaceToCreate = () => {
         </div>
         <div className="project-paragraph">
           <p>
-            The episodes for this web series were filmed with just a crew of
-            two: myself and the director. For every episode, we wanted to show
-            the audience the perspective of the artist so we utilized guerilla
-            style-filmmaking. With only a camera, a few lenses and a clapper
-            board for our equipment, we followed the artists through the streets
-            of Berlin as they carried on with their daily tasks, taking us along
-            the journey.
+            A Space To Create is a web series exploring the creative
+            journeys and processes of several students and teachers. 
+            This web-series was made for and in collaboration with Catalyst: Institute of the Arts in Berlin.
           </p>
-        </div>
-        <div className="project-media-2">
-          <img
-            src={ASpaceToCreateCover3}
-            alt="Pietro Spinelli in A Space to Create"
-            className="project-image pietro"
-          />
         </div>
         <p>Click the links below to watch episodes of the web series:</p>
         <div className="webseries-links">

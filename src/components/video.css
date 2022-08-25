@@ -6,3 +6,21 @@
     object-fit: cover;
     object-position: top center;
 }
+
+.homepage-cover-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1240px) {
+    #video {
+        display: none;
+    }
+
+    .homepage-cover-mobile {
+        display: block;
+        width: 95vw;
+        height: calc(100vh - 40px);
+        margin: 0 auto !important;
+        object-fit: cover;
+    }
+}

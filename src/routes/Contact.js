@@ -23,20 +23,10 @@ const Contact = () => {
       className="contact-container"
     >
       <img src={ContactImage} alt="Imoto" className="contact-image"></img>
-        <p>Reach me via:</p>
-      <div className="contact-details">
-        <div className="email">
-          <p>Email:</p>
-          <p>naima.fatimaduyser@gmail.com</p>
-        </div>
-        <div className="phone">
-          <p>Mobile:</p>
-          <p>+393509377413</p>
-        </div>
+        <p>Reach me at naima.fatimaduyser@gmail.com</p>
       <div className="social-media-icons">
         <a href="https://www.linkedin.com/in/naimaduyser/" target="_blank" rel="noreferrer"><BsLinkedin className="linkedin"/></a>
         <a href="https://github.com/naimaduyser" target="_blank" rel="noreferrer"><BsGithub className="github"/></a>
-      </div>
       </div>
     </motion.div>
   );

@@ -48,16 +48,6 @@ const Butterfly = () => {
             following a style guide given by a design team.
           </p>
         </div>
-        <div className="project-paragraph">
-          <p>
-            For many people with lupus, art and creativity are vital forms of
-            expression and healing. There's a huge number of writers, artists,
-            poets, ceramicists, and illustrators within the lupus community, for
-            whom art is a form of therapy and a way of connecting with the wider
-            world. This was the main form of inspiration for building The
-            Butterfly Wing Gallery.
-          </p>
-        </div>
         <a
           className="project-link"
           href="https://butterflywing.gallery"

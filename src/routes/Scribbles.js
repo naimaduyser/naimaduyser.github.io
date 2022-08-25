@@ -77,7 +77,7 @@ const Scribbles = () => {
           </p>
         </div>
         <a
-          href="https://www.youtube.com/watch?v=Kajo7amPjMg"
+          href="https://www.youtube.com/watch?v=VLiNPINTrQM&feature=youtu.be"
           target="_blank"
           rel="noreferrer"
           className="project-link"
