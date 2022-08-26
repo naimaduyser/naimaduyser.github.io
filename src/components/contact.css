@@ -1,7 +1,8 @@
 .contact-container {
-    width: 95vw;
-    height: 120vh;
-    padding-top: 30vh;
+    max-width: 95vw;
+    height: calc(100vh - 60px);
+    overflow-y: hidden  ;
+    padding-top: 20vh;
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -12,12 +13,6 @@
     font-weight: 300;
     letter-spacing: 2px;
     line-height: 20px;
-}
-
-.email, .phone {
-    display: block;
-    text-align: center;
-    padding-bottom: 20px;
 }
 
 .social-media-icons {
@@ -42,10 +37,15 @@
 }
 
 .contact-image {
-    width: 600px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1240px) {
+    .contact-container {
+        padding-top: 30vh;
+    }
+
     .contact-details {
         display: block;
         text-align: center;
